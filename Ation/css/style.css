@@ -1,5 +1,6 @@
 .link {
     margin: 1rem;
+    font-size: 1.9rem;
 }
 .btnWrap {
     /* width: 34.2rem; */
@@ -9,7 +10,8 @@
     height: 6.4rem;
     margin: 0.5rem 0.5rem 0.5rem 2.4rem;
     padding: 2.4rem;
-    font-size: 1.2rem;
+    line-height: 0.8rem;
+    font-size: 1.9rem;
     text-align: center;
     border-radius: 0.8rem;
 }
@@ -25,4 +27,5 @@
 }
 .btnWrap button:last-child {
     border: 1px solid #58616A;
+    background-color: #FFF;
 }
