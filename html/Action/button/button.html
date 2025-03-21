@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/html/Action/button/button.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/html/Action/button/button.css">
     <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/resources/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/resources/css/common.css">
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/resources/css/common.css"> 이것도 절대경로지만 -->
+    <link rel="stylesheet" href="../../../resources/css/common.css"> <!-- 상대경로 -->
+    <link rel="stylesheet" href="../../../resources/css/reset.css">
+    <link rel="stylesheet" href="button.css"> <!-- 내가 지금 보고있는 파일 기준을 잡은 절대경로, ./button.css 이렇게 잡아도 됨 -->
     <title>버튼 만들기</title>
 </head>
 <body>
@@ -16,12 +19,12 @@
     </div>
     <div class="btn_text">
         <button>버튼</button>
-        <button>버튼</button>
+        <button><i></i>버튼<span></span></button>
     </div>
     <div class="btn_icon">
-        <button>버튼</button>
-        <button>버튼</button>
-        <button>버튼</button>
+        <button>버튼<i></i></button>
+        <button>버튼<i></i></button>
+        <button>버튼<i></i></button>
     </div>
 </body>
 </html>
