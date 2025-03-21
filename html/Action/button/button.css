@@ -1,10 +1,7 @@
-.link {
-    margin: 1rem;
-    font-size: 1.9rem;
-    color: ;
-}
-.btnWrap {
+/* btn_wrap */
+.btn_wrap, .btn_text {
     /* width: 34.2rem; */
+    margin-bottom: 5rem;
 }
 .btn {
     width: 9.8rem;
@@ -16,17 +13,34 @@
     text-align: center;
     border-radius: 0.8rem;
 }
-.btnWrap button:first-child {
+.btn-wrap button:first-child {
     color: #FFF;
     background-color: #256EF4;
     border: 1px solid #256EF4;
 }
-.btnWrap button:nth-child(2) {
+.btn_wrap button:nth-child(2) {
     border: 1px solid #256EF4;
     color: #0B50D0;
     background-color: #ECF2FE;
 }
-.btnWrap button:last-child {
+.btn_wrap button:last-child {
     border: 1px solid #58616A;
     background-color: #FFF;
+}
+/* btn_text */
+.btn_text {
+    width: 15.srem;
+    height: 4.0rem;
+}
+.btn_text button:first-child {
+    width: 3.7rem;
+    height: 100%;
+}
+.btn_text button:last-child::after {
+    border: 1px solid #000;
+}
+
+/* btn_icon */
+.btn_icon {
+   text-decoration: underline;
 }

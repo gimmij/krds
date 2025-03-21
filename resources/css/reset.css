@@ -42,18 +42,41 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
- a {
-    text-decoration: none; 
+a:link { /* 링크 방문 전 */
+    color: #000;
+    /* text-decoration: none; */
+}
+
+a:visited { /* 클릭해서 방문 후 상태 */
+    color: #000;
+    /* text-decoration: none; */
+}
+
+a:hover {
+    color: #000;
+    /* text-decoration: none; */
+}
+
+a:active {  /* 클릭한 상태 */
+    color: #222;
+}
+a {
+    /* text-decoration: none;  */
     outline: none;
     color: #000; 
 }
-a:link { /* 링크 방문 전 */
-    /* text-decoration: none; */
+label, button {
+    cursor: pointer;
 }
-a:visited, a:active { /* 클릭해서 방문 후 상태, 클릭한 상태 */
-    text-decoration: none; 
-    color:#000;
-}
+
 button {
-    /* all: unset; */
+    overflow: visible;
+    border: none;
+    background: none;
+    background: transparent;
+    vertical-align: top;
+    font-family: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    /* outline:0; */
 }
