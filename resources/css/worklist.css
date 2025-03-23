@@ -2,7 +2,10 @@ body {
     background-color: #EEE;
 }
 header {
+    margin: 10px 0 20px 7px;
     margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 700;
 }
 table {
     width: 100%;
