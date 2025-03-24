@@ -1,3 +1,7 @@
+div {
+    margin-left: 2.4rem;
+}
+
 /* btn_wrap */
 .btn_wrap, .btn_text {
     /* width: 34.2rem; */
@@ -6,7 +10,7 @@
 .btn {
     width: 9.8rem;
     height: 6.4rem;
-    margin: 0.5rem 0.5rem 0.5rem 2.4rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
     padding: 2.4rem;
     line-height: 0.8rem;
     font-size: 1.9rem;
@@ -37,6 +41,18 @@
     width: 3.7rem;
     height: 100%;
 }
+.btn_text .btn_text-icon {
+    width: 9.3rem;
+    height: 100%;
+}
+.btn_text .btn_text-icon::before {
+    content: url(/resources/icons/download.png);
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.btn_text .btn_text-icon::after {
+    content: url(/resources/icons/Vector.png);
+}
 .btn_text button:last-child > span::after {
     width: 5px;
     height: 5px;
@@ -44,8 +60,15 @@
 }
 
 /* btn_icon */
-.btn_icon button:first-child {
-    
+.btn_icon button:first-child::after {
+    content: url(/resources/icons/open-new-window-bl.png);
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.btn_icon button::after {
+    content: url(/resources/icons/open-new-window-bk.png);
+    width: 2.4rem;
+    height: 2.4rem;
 }
 .btn_icon button:first-child, .btn_icon button:nth-child(2) {
    text-decoration: underline;
