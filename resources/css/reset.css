@@ -19,6 +19,10 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, strong, sub, sup, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, embed, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -70,6 +74,8 @@ label, button {
 }
 
 button {
+    margin: 0;
+    padding: 0;
     overflow: visible;
     border: none;
     background: none;
@@ -79,4 +85,7 @@ button {
     white-space: nowrap;
     text-decoration: none;
     /* outline:0; */
+}
+a, em, label, span, strong, button {
+    display: inline-block;
 }

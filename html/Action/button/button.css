@@ -1,75 +1,23 @@
-div {
-    margin-left: 2.4rem;
-}
+.btn_wrap {margin-left: 2.4rem; font-size: 1.9rem;}
+.btn_wrap > div {margin-bottom: 5rem;}
 
-/* btn_wrap */
-.btn_wrap, .btn_text {
-    /* width: 34.2rem; */
-    margin-bottom: 5rem;
-}
-.btn {
-    width: 9.8rem;
-    height: 6.4rem;
-    margin: 0.5rem 0.5rem 0.5rem 0;
-    padding: 2.4rem;
-    line-height: 0.8rem;
-    font-size: 1.9rem;
-    text-align: center;
-    border-radius: 0.8rem;
-}
-.btn_wrap > button:first-child {
-    color: #FFF;
-    background-color: #256EF4;
-    border: 1px solid #256EF4;
-}
-.btn_wrap button:nth-child(2) {
-    border: 1px solid #256EF4;
-    color: #0B50D0;
-    background-color: #ECF2FE;
-}
-.btn_wrap button:last-child {
-    border: 1px solid #58616A;
-    background-color: #FFF;
-}
+/* btn_box */
+.btn_box {width: 34.2rem; height: 6.4rem;}
+.btn {width: 9.8rem; height: 6.4rem; padding: 1.75rem 2.4rem; line-height: 0.8rem; font-size: 1.9rem; text-align: center; border-radius: 0.8rem;}
+.btn_box > button:first-child {color: #FFF; background-color: #256EF4; border: 1px solid #256EF4;}
+.btn_box button:nth-child(2) {/* margin: 0 2.4rem; */ border: 1px solid #256EF4; color: #0B50D0; background-color: #ECF2FE;}
+.btn_box button:last-child {border: 1px solid #58616A; background-color: #FFF;}
+
 /* btn_text */
-.btn_text {
-    width: 15.4rem;
-    height: 4.0rem;
-    font-size: 1.9rem;
-}
-.btn_text button:first-child {
-    width: 3.7rem;
-    height: 100%;
-}
-.btn_text .btn_text-icon {
-    width: 9.3rem;
-    height: 100%;
-}
-.btn_text .btn_text-icon::before {
-    content: url(/resources/icons/download.png);
-    width: 2.4rem;
-    height: 2.4rem;
-}
-.btn_text .btn_text-icon::after {
-    content: url(/resources/icons/Vector.png);
-}
-.btn_text button:last-child > span::after {
-    width: 5px;
-    height: 5px;
-    border: 1px solid #000;
-}
+.btn_text {position: relative; display: flex; width: 15.4rem; height: 4.0rem;}
+.btn_text button:first-child {width: 3.7rem; height: 100%; margin-right: 2.4rem; font-size: 1.9rem;}
+.btn_text button:nth-child(2) {display: flex; justify-content: center; align-items: center; width: 9.3rem; height: 100%; font-size: 1.9rem;}
+.btn_text button:nth-child(2)::before {content: url(/resources/icons/download.png); width: 2.4rem; height: 2.4rem;}
+.btn_text button:nth-child(2)::after {content: url(/resources/icons/Vector.png); width: 2.4rem; height: 2.4rem;}
 
 /* btn_icon */
-.btn_icon button:first-child::after {
-    content: url(/resources/icons/open-new-window-bl.png);
-    width: 2.4rem;
-    height: 2.4rem;
-}
-.btn_icon button::after {
-    content: url(/resources/icons/open-new-window-bk.png);
-    width: 2.4rem;
-    height: 2.4rem;
-}
-.btn_icon button:first-child, .btn_icon button:nth-child(2) {
-   text-decoration: underline;
-}
+.btn_icon {display: flex;}
+.btn_icon button {display: flex; width: 6.5rem; height: 2.9rem; justify-content: center; align-items: center; font-size: 1.9rem;}
+.btn_icon button::after {content: url(/resources/icons/open-new-window-bk.png); width: 2.4rem; height: 2.4rem;}
+.btn_icon button:first-child::after {content: url(/resources/icons/open-new-window-bl.png); width: 2.4rem; height: 2.4rem;}
+.btn_icon button:nth-child(2) {margin: 0 2.4rem;}
