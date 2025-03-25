@@ -2,10 +2,10 @@
 .btn_wrap > div {margin-bottom: 5rem;}
 
 /* btn_box */
-.btn_box {width: 34.2rem; height: 6.4rem;}
+.btn_box {display: flex; width: 34.2rem; height: 6.4rem;}
 .btn {width: 9.8rem; height: 6.4rem; padding: 1.75rem 2.4rem; line-height: 0.8rem; font-size: 1.9rem; text-align: center; border-radius: 0.8rem;}
 .btn_box > button:first-child {color: #FFF; background-color: #256EF4; border: 1px solid #256EF4;}
-.btn_box button:nth-child(2) {/* margin: 0 2.4rem; */ border: 1px solid #256EF4; color: #0B50D0; background-color: #ECF2FE;}
+.btn_box button:nth-child(2) {margin: 0 2.4rem; border: 1px solid #256EF4; color: #0B50D0; background-color: #ECF2FE;}
 .btn_box button:last-child {border: 1px solid #58616A; background-color: #FFF;}
 
 /* btn_text */
