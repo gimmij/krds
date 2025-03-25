@@ -1,10 +1,6 @@
 .link {
     margin: 1rem;
     font-size: 1.9rem;
-    color: ;
-}
-.btnWrap {
-    /* width: 34.2rem; */
 }
 .btn {
     width: 9.8rem;
@@ -25,14 +21,15 @@
 .btnWrap button:last-child {border: 1px solid #58616A; background-color: #FFF;}
 
 /* -------------------------------------------------- */
-.contentes {width: 94.7rem; height: 19.2rem;}
-
-.link_btn_wrap {display: flex; width: 81.9rem; height: 6.4rem; margin: 6.4rem ; line-height: 6.4rem; text-align: center; font-size: 1.9rem;}
+.contents {position: relative; display: flex;  width: 94.7rem; height: 19.2rem;}
+.contents .link_btn_wrap {display: flex; width: 81.9rem; height: 6.4rem; margin: 6.4rem ; text-align: center; line-height: 6.4rem; font-size: 1.9rem;}
 
 /*  */
-.link_btn_wrap .link_type_btn {display: flex; width: 34.2rem; height: 100%; }
-.link_btn_wrap .link_type_btn > a {width: 9.8rem; padding: 1.75rem 2.4rem; text-decoration: none; border: 1px solid #256EF4; border-radius: 0.8rem;}
-.link_btn_wrap .link_type_btn .link_btn2 {margin: 0 2.4rem;}
+.link_btn_wrap .link_type_btn {display: flex; width: 34.2rem; height: 100%;}
+.link_btn_wrap .link_type_btn > a {width: 9.8rem; padding: 1.75rem 2.4rem; text-decoration: none; border-radius: 0.8rem; color: #FFF; background-color: #256EF4; border: 1px solid #256EF4;}
+.link_btn_wrap .link_type_btn .link_btn1 {background-color: #256EF4;}
+.link_btn_wrap .link_type_btn .link_btn2 {margin: 0 2.4rem; color: #0B50D0; background-color: #ECF2FE; border: 1px solid #256EF4;}
+.link_btn_wrap .link_type_btn .link_btn3 {color: #000; background-color: #FFF; border: 1px solid #58616A;}
 
 /*  */
 .link_type_link {width: 15.4rem; height: 4.0rem; margin: 0 4rem;}
