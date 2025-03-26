@@ -18,13 +18,18 @@
     <div class="contents">
         <div class="link_btn_wrap">
             <div class="link_type_btn">
-                <a class="link_btn1" href="#" target="_blank" title="새창열림">버튼</a> 
-                <a class="link_btn2" href="#" target="_blank" title="새창열림">버튼</a> 
-                <a class="link_btn3" href="#" target="_blank" title="새창열림">버튼</a> 
+                <a class="link_btn link_btn1" href="#" target="_blank" title="새창열림">버튼</a> 
+                <a class="link_btn link_btn2" href="#" target="_blank" title="새창열림">버튼</a> 
+                <a class="link_btn link_btn3" href="#" target="_blank" title="새창열림">버튼</a> 
             </div>
             <div class="link_type_link">
-                <a href="#" target="_blank" title="새창열림">버튼</a> 
-                <a href="#" target="_blank" title="새창열림">버튼</a> 
+                <div class="link_a_wrap">
+                    <a class="link_txt link_txt1" href="#" target="_blank" title="새창열림">버튼</a> 
+                    <a class="link_txt link_txt2" href="#" target="_blank" title="새창열림">
+                        <i class="link_icon1"></i>버튼
+                        <i class="link_icon2"></i>
+                    </a> 
+                </div>
             </div>
             <div class="link_type_icon">
                 <a href="#" target="_blank" title="새창열림">버튼</a> 
@@ -33,6 +38,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.querySelector('.contents').addEventListener('click', e => {
+            e.preventDefault();
+        })
+    </script>
 
 </body>
 </html>
