@@ -32,13 +32,19 @@
 .link_btn_wrap .link_type_btn .link_btn3 {color: #000; background-color: #FFF; border: 1px solid #58616A;}
 
 /* 링크 */
-.link_type_link {display: flex; width: 15.4rem; margin: 0 4rem; padding: 1.2rem 0;}
-.link_type_link .link_a_wrap {margin: 0.55rem 0;}
-.link_type_link .link_txt1 {padding: 0.55rem 0.2rem; margin-right: 4rem;}
-.link_type_link .link_txt2 {padding: 0.55rem 0;}
-.link_type_link .link_txt2 .link_icon1 {display: inline-block; width: 2.4rem; height: 2.4rem; margin-left: 0.2rem; background-image: url(/resources/icons/download.png); background-size: cover;}
-.link_type_link .link_txt2 .link_icon2 {display: inline-block; width: 2.4rem; height: 2.4rem; margin-left: 0.2rem; background-image: url(/resources/icons/arrow-right.png); background-size: cover; }
+.link_type_link {display: flex; width: 15.4rem; margin: 0 4rem; padding: 1.2rem 0; }
+.link_type_link .link_a_wrap {}
+.link_type_link .link_txt1 {padding: 0.55rem 0.2rem; text-decoration: none;}
+.link_type_link .link_txt2 {width: 9.3rem; padding: 0.55rem 0; text-decoration: none;}
+.link_type_link .link_txt2 .link_icon1 {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url(/resources/icons/download.png); background-size: cover;}
+.link_type_link .link_txt2 .link_icon2 {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url(/resources/icons/arrow-right.png); background-size: cover; }
 
 
 /* 아이콘 */
-.link_type_icon {width: 24.3rem; height: 2.9rem;}
+.link_type_icon {width: 24.3rem; height: 2.9rem; padding: 1.75rem 0;}
+/* .link_type_icon .link_icon_wrap {width: 6.5rem;} */
+.link_type_icon .link_icon1 {color: #256EF4;}
+/* .link_type_icon .link_icon2 {margin: 0 2rem;} */
+.link_type_icon .icon1 {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url(/resources/icons/open-new-window-bl.png);}
+.link_type_icon .icon2 {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url(/resources/icons/open-new-window-bk.png);}
+.link_type_icon .icon3 {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url(/resources/icons/open-new-window-bk.png);}
