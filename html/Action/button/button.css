@@ -22,6 +22,8 @@
 .btn_icon button:first-child::after {content: url(/resources/icons/open-new-window-bl.png); width: 2.4rem; height: 2.4rem;}
 .btn_icon button:nth-child(2) {margin: 0 2.4rem;}
 
+/* ======================================================================================================== */
+
 /* 버튼 */
 .btn_type_wrap {display: flex; width: 81.9rem; font-size: 1.9rem;}
-/* .btn_type_wrap .btn_type_btn {font-size: 1.9rem;} */
+.btn_type_wrap .btn_type_btn {width: 34.2ren;}

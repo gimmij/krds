@@ -2,3 +2,16 @@ html {
     font-size: 10px;
     /* font-size: 62.5%; */
 }
+.contents {position: relative; display: flex;  width: 94.7rem; height: 19.2rem;}
+.pd64 {padding: 6.4rem;}
+.pd-tb12 {padding: 0.12rem 0;}
+.mg-tb12 {margin: 0.12rem 0;}
+
+.ft-sz {font-size: 1.9rem;}
+
+.bd-bk {border: 1px solid #000;}
+.bd-bl {border: 1px solid #256EF4;}
+
+.color-bl1 {background-color: #256EF4;}
+.color-bl2 {color: #0B50D0;}
+.color-wh {color: #FFF;}

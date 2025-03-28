@@ -21,8 +21,8 @@
 .btnWrap button:last-child {border: 1px solid #58616A; background-color: #FFF;}
 
 /* -------------------------------------------------- */
-.contents {position: relative; display: flex;  width: 94.7rem; height: 19.2rem;}
-.contents .link_btn_wrap {display: flex; width: 81.9rem; height: 6.4rem; margin: 6.4rem ; font-size: 1.9rem;}
+/* .contents {position: relative; display: flex;  width: 94.7rem; height: 19.2rem;} */
+.contents .link_btn_wrap {display: flex; width: 81.9rem; height: 6.4rem; margin: 6.4rem ;}
 
 /* 버튼형 */
 .link_btn_wrap .link_type_btn {display: flex; width: 34.2rem; height: 100%;}
